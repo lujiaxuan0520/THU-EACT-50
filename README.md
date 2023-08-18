@@ -1,6 +1,6 @@
 # THU<sup>E-ACT</sup>-50: A Real-World Event-Based Action Recognition Benchmark
 
-**THU<sup>E-ACT</sup>-50** is a large-scale, real-world event-specific action recognition dataset with more than 4 times the size of the current largest event-based action recognition dataset. It contains 50 action categories and is primarily designed for whole-body motions and indoor healthcare applications. This repository provides access to the dataset, alongside detailed information about its contents and structure.
+Introduced by the paper, "[Action Recognition and Benchmark Using Event Cameras](https://ieeexplore.ieee.org/abstract/document/10198747)" in TPAMI 2023, **THU<sup>E-ACT</sup>-50** stands as a large-scale, real-world event-specific action recognition dataset with more than 4 times the size of the current largest event-based action recognition dataset. It contains 50 action categories and is primarily designed for whole-body motions and indoor healthcare applications. This repository provides access to the dataset, alongside detailed information about its contents and structure.
 
 <img src="figures/sample-sequences.jpg" alt="Sample-sequences" style="zoom: 33%;" />
 
@@ -56,12 +56,37 @@ We report the following evaluation metrics for each dataset:
 - **Top-1 Accuracy:** The percentage of test videos for which the model correctly predicts the action category with the highest confidence.
 - **Top-N Accuracy:** The percentage of test videos for which the correct action category is within the top N predictions made by the model.
 
-## Download
+## Dataset Download
 
-The **THU<sup>E-ACT</sup>-50** and **THU<sup>E-ACT</sup>-50 CHL** datasets will be released upon the acceptance of our paper. Please stay tuned for updates on the availability of the dataset.
+We're pleased to announce the release of the **THU<sup>E-ACT</sup>-50** and **THU<sup>E-ACT</sup>-50 CHL** datasets. 
 
+### **THU<sup>E-ACT</sup>-50**
+
++ **OneDrive:** [Download Here](https://mailstsinghuaeducn-my.sharepoint.com/:u:/g/personal/lujx20_mails_tsinghua_edu_cn/EVAfzCmMfH9KtQhHh37hCFIBXrszDqLXtOfjBir2__GTjg?e=rnUht0)
++ **BaiduYun:** [Download Here](https://pan.baidu.com/s/1ohCswORXFMyEho3A6nKnSg) (Access Code: `4csp`) 
+
+*Note*: After decompression, the dataset will require about 332GB of storage space.
+
+### **THU<sup>E-ACT</sup>-50 CHL**
+
++ **Google Drive:** [Download Here](https://drive.google.com/file/d/1a5r6cw0nVX0Xe-ZzVLAhEwa9oMm4MUbS/view?usp=sharing) 
++ **BaiduYun:** [Download Here](https://pan.baidu.com/s/1R6Q2U5By_h16S_TdkCRM4A) (Access Code: `fdnd`) 
+
+*Note*: After decompression, the dataset will occupy approximately 4.6GB of storage space.
 
 ## Acknowledgements
 
 We would like to express our sincere gratitude to Tsinghua University, partner companies, and organizations for their invaluable support and collaboration in making this dataset possible. Additionally, we extend our thanks to all the volunteers who participated in the data collection process. Their contributions have been instrumental in the development and evaluation of this benchmark.
+
+## Citing Our Work
+
+If you find this dataset beneficial for your research, please cite our work:
+
+> @article{gao2023action,
+>     title={Action Recognition and Benchmark Using Event Cameras},
+>     author={Gao, Yue and Lu, Jiaxuan and Li, Siqi and Ma, Nan and Du, Shaoyi and Li, Yipeng and Dai, Qionghai},
+>     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+>     year={2023},
+>     publisher={IEEE}
+> }
 
