@@ -1,6 +1,6 @@
 # THU<sup>E-ACT</sup>-50: A Real-World Event-Based Action Recognition Benchmark
 
-Introduced by the paper, "[Action Recognition and Benchmark Using Event Cameras](https://ieeexplore.ieee.org/abstract/document/10198747)" in TPAMI 2023, **THU<sup>E-ACT</sup>-50** stands as a large-scale, real-world event-specific action recognition dataset with more than 4 times the size of the current largest event-based action recognition dataset. It contains 50 action categories and is primarily designed for whole-body motions and indoor healthcare applications. This repository provides access to the dataset, alongside detailed information about its contents and structure.
+Introduced by the paper "[Action Recognition and Benchmark Using Event Cameras](https://ieeexplore.ieee.org/abstract/document/10198747)" in TPAMI 2023, **THU<sup>E-ACT</sup>-50** stands as a large-scale, real-world event-specific action recognition dataset with more than 4 times the size of the current largest event-based action recognition dataset. It contains 50 action categories and is primarily designed for whole-body motions and indoor healthcare applications. This repository provides access to the dataset, alongside detailed information about its contents and structure.
 
 <img src="figures/sample-sequences.jpg" alt="Sample-sequences" style="zoom: 33%;" />
 
@@ -82,11 +82,12 @@ We would like to express our sincere gratitude to Tsinghua University, partner c
 
 If you find this dataset beneficial for your research, please cite our work:
 
-> @article{gao2023action,
->     title={Action Recognition and Benchmark Using Event Cameras},
->     author={Gao, Yue and Lu, Jiaxuan and Li, Siqi and Ma, Nan and Du, Shaoyi and Li, Yipeng and Dai, Qionghai},
->     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
->     year={2023},
->     publisher={IEEE}
-> }
-
+```bibtex
+@article{gao2023action,
+  title={Action Recognition and Benchmark Using Event Cameras},
+  author={Gao, Yue and Lu, Jiaxuan and Li, Siqi and Ma, Nan and Du, Shaoyi and Li, Yipeng and Dai, Qionghai},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023},
+  publisher={IEEE}
+}
+```
