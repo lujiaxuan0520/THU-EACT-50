@@ -74,6 +74,30 @@ We're pleased to announce the release of the **THU<sup>E-ACT</sup>-50** and **TH
 
 *Note*: After decompression, the dataset will occupy approximately 4.6GB of storage space.
 
+## Dataset Format
+
+In the two datasets, the division for training and test sets can be found in the `train.txt` and `test.txt` files, respectively. 
+Each line consists of **File Name** and **Action ID**.
+
+### **THU<sup>E-ACT</sup>-50**
+
+In the THU-EACT-50 dataset, which is provided in the .csv format, the data is structured with 5 columns as follows:
+
++ y: Represents the y-coordinate of the event.
++ x: Represents the x-coordinate of the event.
++ b: This is an additional brightness value provided by the CeleX-V camera. It's worth noting that for our method, this value is not utilized.
++ p: The polarity value. It contains three categories: 1, -1, and 0. In our experiments, we ignore the 0 values and consider 1 as positive polarity and -1 as negative polarity.
++ t: Represents the timestamp of the event.
+
+### **THU<sup>E-ACT</sup>-50 CHL**
+
+For the THU-EACT-50-CHL dataset, which is available in the .npy format, each line contains 4 elements:
+
++ x: Represents the x-coordinate of the event.
++ y: Represents the y-coordinate of the event.
++ t: Represents the timestamp of the event.
++ p: The polarity value. In this dataset, the polarity only includes standard values of 1 and 0. Here, 1 represents positive polarity, and 0 represents negative polarity.
+
 ## Acknowledgements
 
 We would like to express our sincere gratitude to Tsinghua University, partner companies, and organizations for their invaluable support and collaboration in making this dataset possible. Additionally, we extend our thanks to all the volunteers who participated in the data collection process. Their contributions have been instrumental in the development and evaluation of this benchmark.
