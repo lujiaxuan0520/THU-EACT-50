@@ -76,8 +76,9 @@ We're pleased to announce the release of the **THU<sup>E-ACT</sup>-50** and **TH
 
 ## Dataset Format
 
-In the two datasets, the division for training and test sets can be found in the `train.txt` and `test.txt` files, respectively. 
-Each line consists of **File Name** and **Action ID**.
+In the two datasets, the division for training and test sets can be found in the `train.txt` and `test.txt` files, respectively.  Each line consists of **File Name** and **Action ID**.
+
+The preprocessing operations for the 2 datasets can be found in `dataset.py`.
 
 ### **THU<sup>E-ACT</sup>-50**
 
