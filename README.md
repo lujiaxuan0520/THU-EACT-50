@@ -103,6 +103,11 @@ For the THU-EACT-50-CHL dataset, which is available in the .npy format, each lin
 
 We would like to express our sincere gratitude to Tsinghua University, partner companies, and organizations for their invaluable support and collaboration in making this dataset possible. Additionally, we extend our thanks to all the volunteers who participated in the data collection process. Their contributions have been instrumental in the development and evaluation of this benchmark.
 
+## License
+
+This dataset is licensed under the MIT License.
+
+
 ## Citing Our Work
 
 If you find this dataset beneficial for your research, please cite our work:
@@ -113,6 +118,9 @@ If you find this dataset beneficial for your research, please cite our work:
   author={Gao, Yue and Lu, Jiaxuan and Li, Siqi and Ma, Nan and Du, Shaoyi and Li, Yipeng and Dai, Qionghai},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2023},
+  volume={45},
+  number={12},
+  pages={14081-14097},
   publisher={IEEE}
 }
 ```
