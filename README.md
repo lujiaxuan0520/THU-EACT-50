@@ -1,5 +1,7 @@
 # THU<sup>E-ACT</sup>-50: A Real-World Event-Based Action Recognition Benchmark
 
+> **📢 Update:** We are excited to announce the release of a larger and more comprehensive dataset, **THU<sup>MV-EACT</sup>-50**, which extends the THU<sup>E-ACT</sup>-50 to include multi-view action recognition. For more details, please visit [THU-MV-EACT-50](https://github.com/lujiaxuan0520/THU-MV-EACT-50).
+
 Introduced by the paper "[Action Recognition and Benchmark Using Event Cameras](https://ieeexplore.ieee.org/abstract/document/10198747)" in TPAMI 2023, **THU<sup>E-ACT</sup>-50** stands as a large-scale, real-world event-specific action recognition dataset with more than 4 times the size of the current largest event-based action recognition dataset. It contains 50 action categories and is primarily designed for whole-body motions and indoor healthcare applications. This repository provides access to the dataset, alongside detailed information about its contents and structure.
 
 <img src="figures/sample-sequences.jpg" alt="Sample-sequences" style="zoom: 33%;" />
@@ -110,7 +112,7 @@ This dataset is licensed under the MIT License.
 
 ## Citing Our Work
 
-If you find this dataset beneficial for your research, please cite our work:
+If you find this dataset beneficial for your research, please cite our works:
 
 ```bibtex
 @article{gao2023action,
@@ -121,6 +123,14 @@ If you find this dataset beneficial for your research, please cite our work:
   volume={45},
   number={12},
   pages={14081-14097},
+  publisher={IEEE}
+}
+
+@article{gao2024hypergraph,
+  title={Hypergraph-Based Multi-View Action Recognition Using Event Cameras},
+  author={Gao, Yue and Lu, Jiaxuan and Li, Siqi and Li, Yipeng and Du, Shaoyi},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
   publisher={IEEE}
 }
 ```
